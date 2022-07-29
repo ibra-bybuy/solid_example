@@ -1,11 +1,11 @@
-import 'package:auth_clean/features/domain/entities/auth_entities.dart';
-import 'package:auth_clean/features/presentation/widgets/login_fiel.dart';
 import 'package:auth_clean/setup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
+import '../../domain/entities/auth_entities.dart';
 import '../cubit/auth_cubit.dart';
 import '../widgets/btn.dart.dart';
+import '../widgets/login_field.dart';
 import '../widgets/password_field.dart';
 
 class AuthScreen extends StatefulWidget {

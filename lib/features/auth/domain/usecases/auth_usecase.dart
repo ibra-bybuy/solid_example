@@ -1,6 +1,6 @@
-import 'package:auth_clean/features/domain/entities/auth_entities.dart';
 import 'package:injectable/injectable.dart';
 
+import '../entities/auth_entities.dart';
 import '../repository/auth_repository.dart';
 
 @LazySingleton()

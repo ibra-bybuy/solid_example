@@ -1,7 +1,7 @@
-import 'package:auth_clean/features/data/models/auth_request_data.dart';
-import 'package:auth_clean/features/domain/repository/auth_repository.dart';
 import 'package:injectable/injectable.dart';
 
+import '../../domain/repository/auth_repository.dart';
+import '../models/auth_request_data.dart';
 import '../sources/auth_source.dart';
 
 @LazySingleton(as: AuthRepository)

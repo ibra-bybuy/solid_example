@@ -8,11 +8,11 @@
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 
-import 'features/data/repository/auth_impl.dart' as _i5;
-import 'features/data/sources/auth_source.dart' as _i3;
-import 'features/domain/repository/auth_repository.dart' as _i4;
-import 'features/domain/usecases/auth_usecase.dart' as _i6;
-import 'features/presentation/cubit/auth_cubit.dart'
+import 'features/auth/data/repository/auth_impl.dart' as _i5;
+import 'features/auth/data/sources/auth_source.dart' as _i3;
+import 'features/auth/domain/repository/auth_repository.dart' as _i4;
+import 'features/auth/domain/usecases/auth_usecase.dart' as _i6;
+import 'features/auth/presentation/cubit/auth_cubit.dart'
     as _i7; // ignore_for_file: unnecessary_lambdas
 
 // ignore_for_file: lines_longer_than_80_chars

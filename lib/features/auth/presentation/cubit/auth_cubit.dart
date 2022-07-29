@@ -1,8 +1,9 @@
-import 'package:auth_clean/features/domain/entities/auth_entities.dart';
-import 'package:auth_clean/features/domain/usecases/auth_usecase.dart';
 import 'package:equatable/equatable.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
+
+import '../../domain/entities/auth_entities.dart';
+import '../../domain/usecases/auth_usecase.dart';
 
 part 'auth_state.dart';
 

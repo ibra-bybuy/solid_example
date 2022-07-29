@@ -1,6 +1,7 @@
-import 'package:auth_clean/features/presentation/screens/auth_screen.dart';
 import 'package:auth_clean/setup.dart';
 import 'package:flutter/material.dart';
+
+import 'features/auth/presentation/screens/auth_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
