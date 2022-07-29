@@ -12,8 +12,9 @@ class AuthCubit extends Cubit<AuthState> {
   AuthCubit(this.authUsecase) : super(AuthInitial());
 
   Future<void> auth(AuthEntities entities) async {
-    emit(AuthLoading());
-    final response = await authUsecase.signIn(entities);
-    emit(AuthLoaded(response));
+    emit(AuthLoading()); // Меняет состояние на: загрузка
+    final response =
+        await authUsecase.signIn(entities); // Отправляет запрос на авторизацию
+    emit(AuthLoaded(response)); // Меняет состояние на ответ запроса
   }
 }
